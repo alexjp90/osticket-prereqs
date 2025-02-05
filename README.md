@@ -13,7 +13,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -25,11 +25,39 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Item 1. Operating System:
+
+    Linux-based OS (Ubuntu, CentOS, Debian, etc.)
+    Windows Server (with WAMP/XAMPP)
+  
+- Item 2. Web Server:
+
+    Apache (Preferred) or Nginx
+    IIS (for Windows-based setups)
+  
+- Item 3. PHP: Version 8.0 - 8.1 (Recommended)
+
+    Required extensions:
+        mysqli (MySQL Improved)
+        gd (for image processing)
+        mbstring (multibyte string functions)
+        xml (XML processing)
+        imap (for email fetching)
+        json (JSON support)
+        intl (Internationalization)
+        apcu (for caching - optional but recommended)
+  
+- Item 4. Additional Requirements
+
+    Storage: At least 2GB of disk space (depends on ticket volume).
+    Memory: 2GB+ RAM (More for larger deployments).
+    SMTP/IMAP: Required for email fetching and sending notifications.
+    SSL Certificate: Recommended for security (especially for production).
+  
+- Item 5. Optional Requirements
+
+    Cron Job (Linux) or Task Scheduler (Windows) – Needed for automated tasks like email fetching.
+    Composer – Required if installing via Git.
 
 <h2>Installation Steps</h2>
 
