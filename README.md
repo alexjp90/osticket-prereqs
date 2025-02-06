@@ -61,8 +61,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>
-(https://github.com/user-attachments/assets/9e98a465-ca89-4a86-ba6f-93d7b53223b4)
 
 </p>
 <p>
@@ -76,7 +74,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img ![Screenshot (55)](https://github.com/user-attachments/assets/5ac4ecc9-f5eb-4819-9d2a-54a899423037)
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img ![Screenshot (56)](https://github.com/user-attachments/assets/329d5e3a-dd43-4e4d-b44c-5b594ff63fd9)
+
 </p>
 
 <p>
@@ -100,11 +99,13 @@ sudo mysql_secure_installation
 
     Set a strong root password.
     Remove anonymous users & test database..
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img ![Screenshot (57)](https://github.com/user-attachments/assets/b11a959d-f431-425d-a9cd-24048442d5dd)
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
