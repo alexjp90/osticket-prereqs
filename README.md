@@ -74,11 +74,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<p>
+<img ![Screenshot (55)](https://github.com/user-attachments/assets/5ac4ecc9-f5eb-4819-9d2a-54a899423037)
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install Required Software (For Ubuntu)
+
+Update your system:
+
+sudo apt update && sudo apt upgrade -y
+
+Install Apache, MySQL, and PHP (LAMP Stack)
+
+sudo apt install apache2 mariadb-server php php-mysql php-mbstring php-xml php-imap php-gd php-json php-intl unzip -y
+
+Enable and Start Services
+
+sudo systemctl enable --now apache2 mysql
+
+Secure MySQL
+
+sudo mysql_secure_installation
+
+    Set a strong root password.
+    Remove anonymous users & test database..
 </p>
 <br />
 
